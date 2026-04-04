@@ -1,0 +1,4 @@
+# Production dependencies
+
+# add this for structure
+typing-extensions>=4.0.0
