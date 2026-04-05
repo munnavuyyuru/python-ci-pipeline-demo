@@ -7,11 +7,11 @@ __author__ = "Venkata Bhargav"
 
 from .calculator import Calculator
 from .utils import (
+    calculate_average,
+    find_max_min,
+    format_result,
     is_number,
     validate_inputs,
-    format_result,
-    calculate_average,
-    find_max_min
 )
 
 __all__ = [
@@ -20,5 +20,5 @@ __all__ = [
     "validate_inputs",
     "format_result",
     "calculate_average",
-    "find_max_min"
+    "find_max_min",
 ]
