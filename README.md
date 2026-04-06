@@ -1,11 +1,11 @@
-<div align="center"> 
-  <h1>Python CI Pipeline Demo</h1> 
-  <p> 
-    <a href="https://www.python.org/downloads/"> <img src="https://img.shields.io/badge/python-3.9%2B-blue" alt="Python Version"> </a> 
-    <a href="https://github.com/psf/black"> <img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black"> </a> 
-    <a href="https://github.com/PyCQA/pylint"> <img src="https://img.shields.io/badge/linting-pylint-yellowgreen" alt="Linting: pylint"> </a> 
-    <a href="https://github.com/PyCQA/bandit"> <img src="https://img.shields.io/badge/security-bandit-yellow.svg" alt="Security: bandit"> </a> 
-    <a href="https://github.com/pre-commit/pre-commit"> <img src="https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white" alt="Pre-commit"> </a> </p> 
+<div align="center">
+  <h1>Python CI Pipeline Demo</h1>
+  <p>
+    <a href="https://www.python.org/downloads/"> <img src="https://img.shields.io/badge/python-3.9%2B-blue" alt="Python Version"> </a>
+    <a href="https://github.com/psf/black"> <img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black"> </a>
+    <a href="https://github.com/PyCQA/pylint"> <img src="https://img.shields.io/badge/linting-pylint-yellowgreen" alt="Linting: pylint"> </a>
+    <a href="https://github.com/PyCQA/bandit"> <img src="https://img.shields.io/badge/security-bandit-yellow.svg" alt="Security: bandit"> </a>
+    <a href="https://github.com/pre-commit/pre-commit"> <img src="https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white" alt="Pre-commit"> </a> </p>
 </div>
 
 > Production-grade CI/CD pipeline demonstration with comprehensive testing, linting, and security scanning.
