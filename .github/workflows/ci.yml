@@ -1,6 +1,5 @@
 name: CI Pipeline
 
-
 on:
   push:
     branches: [ main, develop ]
@@ -47,7 +46,7 @@ jobs:
           cache: 'pip'  # Cache pip dependencies
 
       - name: Cache pip dependencies
-        uses: actions/cache@13aacd865c20de90d75de3b17ebe84f7a17d57d2  # v4.0.0
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830  # v4.0.0
         with:
           path: |
             ~/.cache/pip
