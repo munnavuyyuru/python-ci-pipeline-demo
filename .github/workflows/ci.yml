@@ -170,16 +170,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements-dev.txt
 
+    
       - name: Run Tests with Coverage
-        run: |
-          pytest -v \
-            --cov=src \
-            --cov-report=xml \
-            --cov-report=term-missing \
-            --cov-report=html \
-            --junitxml=pytest-report.xml \
-            --html=pytest-report.html \
-            --self-contained-html
+        run: pytest -v --cov=src --cov-report=xml --cov-report=term-missing --cov-report=html --junitxml=pytest-report.xml --html=pytest-report.html --self-contained-html
+
 
       - name: Check Coverage Threshold
         run: |
