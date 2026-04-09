@@ -31,9 +31,9 @@ class TestCalculatorBenchmarks:
         assert abs(result - (1000 / 7)) < 0.0001
 
     def test_benchmark_history_operations(self, benchmark):
-        calc = Calculator()
 
         def perform_operations():
+            calc = Calculator()
             for i in range(100):
                 calc.add(i, i + 1)
             return calc.get_history()
