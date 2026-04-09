@@ -40,7 +40,8 @@ jobs:
           pytest tests/test_benchmarks.py \
             --benchmark-only \
             --benchmark-json=benchmark-results.json \
-            --benchmark-sort=name
+            --benchmark-sort=name \
+            --no-cov
 
       - name: Store benchmark result
         uses: benchmark-action/github-action-benchmark@v1
